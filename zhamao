@@ -1,2 +1,0 @@
-#!/usr/bin/env php
-<?php require_once "vendor/autoload.php";(new ZM\ConsoleApplication("zhamao-framework"))->initEnv("server")->run();
