@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<trees>
-    <tree path="/src">
-        <tree path="/Custom" title="全局函数"/>
-        <tree path="/Module" title="功能模块"/>
-    </tree>
-</trees>
