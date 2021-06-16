@@ -31,10 +31,6 @@
     "require-dev": {
         "swoole/ide-helper": "@dev"
     },
-    "scripts": {
-        "post-create-project-cmd": "vendor/bin/start init",
-        "post-update-cmd": "vendor/bin/start check:config"
-    },
     "autoload": {
         "psr-4": {
             "Module\\": "src/Module",
