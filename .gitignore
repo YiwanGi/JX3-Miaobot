@@ -1,4 +1,5 @@
 .idea/
 /vendor/
 /zm_data/
+.DS_Store
 composer.lock
