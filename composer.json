@@ -1,0 +1,49 @@
+{
+    "name": "yiwangi/jx3-miaobot",
+    "description": "composer project of zhamao-jx3-miaobot",
+    "version": "1.0.0",
+    "type": "project",
+    "keywords": [
+        "php",
+        "swoole",
+        "jx3",
+        "cqhttp",
+        "zhamao-framework",
+        "zhamao-robot"
+    ],
+    "homepage": "http://www.jx3dat.com/",
+    "time": "2020-03-20",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YiwanGi",
+            "email": "admin@j3sp.com",
+            "homepage": "https://github.com/yiwangi",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/yiwangi/jx3-miaobot/issues"
+    },
+    "require": {
+        "zhamao/framework": "2.4.4"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "@dev"
+    },
+    "scripts": {
+        "post-create-project-cmd": "vendor/bin/start init",
+        "post-update-cmd": "vendor/bin/start check:config"
+    },
+    "autoload": {
+        "psr-4": {
+            "Module\\": "src/Module",
+            "Custom\\": "src/Custom"
+        },
+        "files": [
+            "src/Custom/global_function.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
