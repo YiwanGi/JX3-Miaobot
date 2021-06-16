@@ -1,6 +1,6 @@
 {
     "name": "yiwangi/jx3-miaobot",
-    "description": "composer project of zhamao-jx3-miaobot",
+    "description": "composer project of jx3-miaobot",
     "version": "1.0.0",
     "type": "project",
     "keywords": [
@@ -11,8 +11,6 @@
         "zhamao-framework",
         "zhamao-robot"
     ],
-    "homepage": "http://www.jx3dat.com/",
-    "time": "2020-03-20",
     "license": "MIT",
     "authors": [
         {
@@ -22,9 +20,6 @@
             "role": "Developer"
         }
     ],
-    "support": {
-        "issues": "https://github.com/yiwangi/jx3-miaobot/issues"
-    },
     "require": {
         "zhamao/framework": "2.4.4"
     },
