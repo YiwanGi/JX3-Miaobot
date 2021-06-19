@@ -15,9 +15,7 @@
     "authors": [
         {
             "name": "YiwanGi",
-            "email": "admin@j3sp.com",
-            "homepage": "https://github.com/yiwangi",
-            "role": "Developer"
+            "email": "admin@j3sp.com"
         }
     ],
     "require": {
